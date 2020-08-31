@@ -14,7 +14,7 @@ body {
   line-height: 1.6;
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #484848;
+  color: #181818;
 }
 
 .paragraph-caption{
@@ -110,13 +110,6 @@ body {
   padding-left: 70px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: grey;
-  width: 100%;
-  padding: 20px;
-}
-
 /* Add a card effect for articles */
 .card {
   background-color: white;
@@ -134,6 +127,11 @@ body {
 /* Footer */
 .footer {
   text-align: center;
-  background: grey;
-  margin-top: 20px;
+  background: #484848;
+  padding: 100px;
+  margin-top: 50px;
+  color: white;
+  line-height: 1.6;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
 }
