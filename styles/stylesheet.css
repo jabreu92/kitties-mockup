@@ -23,7 +23,6 @@ body {
 	position: absolute;
 	left: 200px;
 	top: 20px;
-	bottom: 30px;
 }
 
 .header p {
@@ -35,19 +34,26 @@ body {
 	font-style: italic;
 }
 
-ul {
+nav {
+	text-align: center
+}
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-
-li a {
-	display: block;
 	width: 100%;
 	background-color: #dddddd;
+
+}
+
+nav li, nav li a {
+  display: inline;
 	text-decoration: none;
 	font-size: 25px;
 	color: black;
+}
+nav li a:hover, nav li a:active{
+	color: blue;
 }
 
 .paragraph-line-space {
