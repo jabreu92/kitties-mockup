@@ -9,6 +9,15 @@ body {
 	height: 100%;
 }
 
+.sr-only{
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+
+}
 
 /* Header/Blog Title */
 
@@ -144,6 +153,14 @@ nav li a:active {
 	margin-top: 20px;
 }
 
+.hidden {
+	position: relative;
+	left: -10000px;
+	top: auto;
+}
+.hidden:focus {
+	left:0;
+}
 
 /* Clear floats after the columns */
 
